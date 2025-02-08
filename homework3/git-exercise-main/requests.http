@@ -1,0 +1,11 @@
+### Display health information
+GET http://localhost:8080/health
+Accept: application/json
+
+### Fetch all users
+GET http://localhost:8080/users
+Accept: application/json
+
+### Fetch one user
+GET http://localhost:8080/users/1
+Accept: application/json
